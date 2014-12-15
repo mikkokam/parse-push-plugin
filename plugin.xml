@@ -19,13 +19,13 @@
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
           <service android:name="com.parse.PushService" />
-          <!-- <receiver android:exported="false" android:name="com.parse.ParsePushPluginReceiver">
+          <receiver android:exported="false" android:name="com.gmail.mikkokam.plugins.ParsePushPluginReceiver">
             <intent-filter>
                 <action android:name="com.parse.push.intent.RECEIVE" />
                 <action android:name="com.parse.push.intent.DELETE" />
                 <action android:name="com.parse.push.intent.OPEN" />
             </intent-filter>
-          </receiver> -->
+          </receiver>
           <receiver android:name="com.parse.GcmBroadcastReceiver"
               android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
