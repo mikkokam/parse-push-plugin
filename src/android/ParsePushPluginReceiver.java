@@ -1,4 +1,4 @@
-package com.phonegap.plugins;
+package com.gmail.mikkokam.plugins;
 
 import com.parse.ParsePushBroadcastReceiver;
 import com.parse.ParseAnalytics;

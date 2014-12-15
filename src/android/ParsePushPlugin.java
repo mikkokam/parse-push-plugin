@@ -1,4 +1,4 @@
-package com.phonegap.plugins;
+package com.gmail.mikkokam.plugins;
 
 import java.util.List;
 import java.lang.Exception;
