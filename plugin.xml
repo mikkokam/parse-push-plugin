@@ -14,7 +14,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="ParsePushPlugin">
-                <param name="android-package" value="com.gmail.mikkokam.plugins.ParsePushPlugin" />
+                <param name="android-package" value="com.gmail.mikkokam.plugins.ParsePushPlugin.ParsePushPlugin" />
             </feature>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
