@@ -1,3 +1,7 @@
+DO NOT USE. See the original repo.
+This is a fork I am using to debug why Adobe PhoneGap Build is not accepting this plugin.
+
+
 Phonegap Parse.com Plugin
 =========================
 
