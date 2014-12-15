@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-        id="com.phonegap.plugins.ParsePushPlugin" version="0.2.0">
+        id="mikkokam.com.github.plugins.ParsePushPlugin" version="0.2.0">
     <name>ParsePushPlugin</name>
     <description>Phonegap plugin for Parse.com push notification</description>
 
@@ -13,18 +13,18 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="ParsePushPlugin">
-                <param name="android-package" value="com.phonegap.plugins.ParsePushPlugin" />
+                <param name="android-package" value="mikkokam.com.github.plugins.ParsePushPlugin" />
             </feature>
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
           <service android:name="com.parse.PushService" />
-          <receiver android:exported="false" android:name="com.phonegap.plugins.ParsePushPluginReceiver">
+          <!-- <receiver android:exported="false" android:name="com.parse.ParsePushPluginReceiver">
             <intent-filter>
                 <action android:name="com.parse.push.intent.RECEIVE" />
                 <action android:name="com.parse.push.intent.DELETE" />
                 <action android:name="com.parse.push.intent.OPEN" />
             </intent-filter>
-          </receiver>
+          </receiver> -->
           <receiver android:name="com.parse.GcmBroadcastReceiver"
               android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
