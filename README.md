@@ -1,5 +1,15 @@
-DO NOT USE. See the original repo.
-This is a fork I am using to debug why Adobe PhoneGap Build is not accepting this plugin.
+**THIS IS AN ANDROID ONLY FORK - TO BE USED WITH ADOBE PHONEGAP BUILD**
+
+Please, see the original repo.
+
+This is a fork I am using to debug why Adobe PhoneGap Build was not accepting this plugin.
+
+Now it does:
+ - namespace can not be com.phonegap or even the cordova one
+ - with iOS parse SDK, the size is too large (iOS SDK is a whopping 30 MB!)
+
+
+From the original:
 
 
 Phonegap Parse.com Plugin
